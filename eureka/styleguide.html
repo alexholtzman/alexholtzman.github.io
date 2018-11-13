@@ -7,12 +7,209 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Eureka Styleguide</title>
 </head>
 <body>
+<img src="images/hero-sea-night.png" width=100% alt="Night Banner">
+<br>
+<img src="images/eureka-final.svg" width="800px" alt="Eureka Logo">
+<br>
 <h1>Styleguide</h1>
-
+<br>
+<img src="images/globe-woman.png" width="75%" alt="Globe Woman">
+<h2>Header Hierarchy</h2>
+<table class="table table-dark">
+    <thead>
+    <tr>
+        <th scope="col">Title Hierarchy</th>
+        <th scope="col">Font</th>
+        <th scope="col">Style</th>
+        <th scope="col">Size</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td scope="row"><h1>Title 1</h1></td>
+        <td>Work Sans</td>
+        <td>Medium</td>
+        <td>80 Point</td>
+    </tr>
+    <tr>
+        <td scope="row"><h2>Title 2</h2></td>
+        <td>Work Sans</td>
+        <td>Medium</td>
+        <td>60 Point</td>
+    </tr>
+    <tr>
+        <td scope="row"><h3>Title 3</h3></td>
+        <td>Work Sans</td>
+        <td>Medium</td>
+        <td>40 Point</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<h2>Color Palette</h2>
+<table class="table table-dark">
+    <tbody>
+    <tr>
+        <th scope="col">Color</th>
+        <th scope="col">Hex Code</th>
+        <th scope="col">Sample</th>
+    </tr>
+    <tr>
+        <td scope="row">Red</td>
+        <td>#ed1c24</td>
+        <td><span class="dot" id="red"></span></td>
+    </tr>
+    <tr>
+        <td scope="row">White</td>
+        <td>#ffffff</td>
+        <td><span class="dot" id="white"></span></td>
+    </tr>
+    <tr>
+        <td scope="row">Dark Gray</td>
+        <td>#212529</td>
+        <td class="6"><span class="dot" id="darkgray"></span></td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<h2>Typefaces</h2>
+<table class="table table-dark">
+    <tbody>
+    <tr>
+        <th scope="col">Font</th>
+        <th scope="col">Purpose</th>
+    </tr>
+    <tr>
+        <td scope="row"><h3 class="shadows">Shadows into Light</h3></td>
+        <td>Use for Logo</td>
+    </tr>
+    <tr>
+        <td scope="row"><h3 class="work">Work Sans</h3></td>
+        <td>Use for all headers</td>
+    </tr>
+    <tr>
+        <td scope="row"><h3 class="tav">Taviraj</h3></td>
+        <td>Use for all paragraph</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<h2>Body Copy</h2>
+<p>Taviraj - 12 point
+    <br>
+    <br>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+</p>
+<h2>Blockquotes & List</h2>
+<h3>Blockquotes</h3>
+<blockquote><i>Leave nothing for tomorrow which can be done today."</i>
+    <br>
+    -Abraham Lincoln
+</blockquote>
+<h3>Horizontal List</h3>
+<ul class="list-ic horizontal">
+    <li><span>1</span></li>
+    <li><span>2</span></li>
+    <li><span>3</span></li>
+</ul>
+<h3>Ordered List</h3>
+<ol class="list-ic vertical">
+    <li>
+        <span>1</span>One
+    </li>
+    <li>
+        <span>2</span>Two
+    </li>
+    <li>
+        <span>3</span>Three
+    </li>
+</ol>
+<h3>Unordered List</h3>
+<ul class="list-ic vertical">
+    <li>
+        <span>&nbsp;</span>Item
+    </li>
+    <li>
+        <span>&nbsp;</span>Item
+    </li>
+    <li>
+        <span>&nbsp;</span>Item
+    </li>
+</ul>
+<h2>Form Objects</h2>
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+    </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+<h2>Links</h2>
+<table class="table table-dark">
+    <tbody>
+    <tr>
+        <th scope="col">Link Example</th>
+        <th scope="col">Details</th>
+    </tr>
+    <tr>
+        <td scope="row"><h3 class="shadows">Shadows into Light</h3></td>
+        <td>Use for Logo</td>
+    </tr>
+    <tr>
+        <td scope="row"><h3 class="work">Work Sans</h3></td>
+        <td>Use for all headers</td>
+    </tr>
+    <tr>
+        <td scope="row"><h3 class="tav">Taviraj</h3></td>
+        <td>Use for all paragraph</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<h2>Social Media Icons</h2>
+<i class="fab fa-facebook fa-4x"></i>
+<i class="fab fa-twitter-square fa-4x"></i>
+<i class="fas fa-envelope-square fa-4x"></i>
+<h2>Alternative Logo</h2>
+<img src="images/e-final.svg" width="125px" alt="Eureka Logo">
+<br>
+<br>
+<img src="images/arrow-grunge.png" alt="Arrow Woman" width="100%">
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
