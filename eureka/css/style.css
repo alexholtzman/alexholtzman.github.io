@@ -44,26 +44,26 @@ h1, h2, h3 {
     font-weight: bold;
 }
 .eureka {
-    font-family: "Shadows Into Light";
+    font-family: "Shadows Into Light", cursive;
     font-size: 80px;
     display: block;
 }
 body {
-    font-family: "Taviraj";
+    font-family: "Taviraj", serif;
     font-style: normal;
     background-color: #212529;
     color: white;
 }
 h1 {
-    font-family: "Work Sans";
+    font-family: "Work Sans", sans-serif;
     font-size:60px;
 }
 h2 {
-    font-family: "Work Sans";
+    font-family: "Work Sans", sans-serif;
     font-size:45px;
 }
 h3 {
-    font-family: "Work Sans";
+    font-family: "Work Sans", sans-serif;
     size:30px;
 }
 .dot {
@@ -83,13 +83,13 @@ h3 {
     border-color: white;
 }
 .shadows {
-    font-family: "Shadows Into Light";
+    font-family: "Shadows Into Light", cursive;
 }
 .work {
-    font-family: "Work Sans";
+    font-family: "Work Sans", sans-serif;
 }
 .tav {
-    font-family: "Taviraj";
+    font-family: "Taviraj", serif;
 }
 blockquote {
     border-left: 10px solid #ed1c24;
@@ -185,23 +185,26 @@ blockquote p {
     background-color:#212529;
     color: #ed1c24;
     border-color: #ed1c24;
-    font-family: "Work Sans";
+    font-family: "Work Sans", sans-serif;
 }
 .btn-primary, .btn-primary:visited {
     background-color: #212529;
     border-color: #ed1c24;
-    font-family: "Work Sans";
+    font-family: "Work Sans", sans-serif;
     color: #ed1c24;
 }
 .btn-primary:hover, .btn-primary:active {
     background-color: #ed1c24;
     border-color: #ed1c24;
-    font-family: "Work Sans";
+    font-family: "Work Sans", sans-serif;
     color: #212529;
 }
 #darkgray {
     border: 2px solid #fff;
 
+}
+#lightgray {
+    background-color: #7d8285;
 }
 header {
     position: relative;
@@ -255,7 +258,7 @@ header .overlay {
     font-size: 14px;
     padding:29px 15px;
     font-weight: 600;
-    font-family: "Work Sans";
+    font-family: "Work Sans", sans-serif;
     text-transform: uppercase;
     transition: 0.5s ease-in;
     -webkit-transition: 0.5s ease-in;
@@ -298,7 +301,7 @@ header .overlay {
     position: relative;
     height: 3em;
     width: 13.5em;
-    margin: 150px 450px;
+    margin: 150px 150px;
 }
 
 .social li {
@@ -307,11 +310,11 @@ header .overlay {
     line-height: 4em;
     margin: -2.2em;
     position: absolute;
-    -webkit-transition: -webkit-transform .7s;
-    -moz-transition: -moz-transform .7s;
-    -ms-transition: -ms-transform .7s;
-    -o-transition: -o-transform .7s;
-    transition: transform .7s;
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    -ms-transition: -ms-transform .5s;
+    -o-transition: -o-transform .5s;
+    transition: transform .5s;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -323,7 +326,7 @@ header .overlay {
 }
 
 .social a {
-    color: #fffdf0;
+    color: #fff;
     display: block;
     height: 4em;
     line-height: 6em;
@@ -356,8 +359,123 @@ header .overlay {
     bottom: 0;
     left: 25%;
 }
-.email {
+.insta {
     background: #ed1c24;
     left: 50%;
     top: 0%;
+}
+.email {
+    background: #ed1c24;
+    bottom: 0;
+    left: 75%;
+}
+.testimonials-clean {
+    color:#212529;
+    background-color: #e1e1e1;
+}
+
+.testimonials-clean p {
+    color:#7d8285;
+}
+
+.testimonials-clean h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+}
+
+@media (max-width:767px) {
+    .testimonials-clean h2 {
+        margin-bottom:25px;
+        padding-top:25px;
+        font-size:24px;
+    }
+}
+
+.testimonials-clean .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+}
+
+.testimonials-clean .intro p {
+    margin-bottom:0;
+}
+
+.testimonials-clean .people {
+    padding:50px 0 20px;
+}
+
+.testimonials-clean .item {
+    margin-bottom:32px;
+}
+
+@media (min-width:768px) {
+    .testimonials-clean .item {
+        height:220px;
+    }
+}
+
+.testimonials-clean .item .box {
+    padding:30px;
+    background-color:#fff;
+    position:relative;
+}
+
+.testimonials-clean .item .box:after {
+    content:'';
+    position:absolute;
+    left:30px;
+    bottom:-24px;
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-width:12px 15px;
+    border-top-color:#fff;
+}
+
+.testimonials-clean .item .author {
+    margin-top:28px;
+    padding-left:25px;
+}
+
+.testimonials-clean .item .name {
+    font-weight:bold;
+    margin-bottom:2px;
+    color:inherit;
+}
+
+.testimonials-clean .item .title {
+    font-size:13px;
+    color:#9da9ae;
+}
+
+.testimonials-clean .item .description {
+    font-size:15px;
+    margin-bottom:0;
+}
+
+.testimonials-clean .item img {
+    max-width:70px;
+    float:left;
+    margin-left: -15px;
+    margin-right:22px;
+    margin-top:-5px;
+}
+.dropdown-menu {
+    background-color: transparent;
+    border: 2px dotted rgba(0,0,0,.25);
+}
+#forgot {
+    color: #ed1c24;
+}
+.l {
+    color: #ed1c24;
+}
+.a {
+    color: #ffffff;
+}
+.v {
+    color: #7d8285;
 }
