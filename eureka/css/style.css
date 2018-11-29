@@ -587,9 +587,17 @@ a:active {
     background-image: url("../images/globe-woman.png") ;
     background-repeat: no-repeat;
     background-position: center;
-    size: auto;
+    background-size: auto 75vh;
+    width:100%;
+    height:75vh;
+    bottom: 25vh;
+    left:0;
+    position: absolute;
 }
-
+.header-bg {
+    background: black;
+    height: 75vh;
+}
 .popup-box {
     background-color: #ffffff;
     border: 1px solid #b0b0b0;
@@ -600,28 +608,6 @@ a:active {
     right: 70px;
     width: 300px;
     font-family: 'Work Sans', sans-serif;
-}
-.round.hollow {
-    margin: 40px 0 0;
-}
-.round.hollow a {
-    border: 2px solid #ff6701;
-    border-radius: 35px;
-    color: red;
-    color: #ff6701;
-    font-size: 23px;
-    padding: 10px 21px;
-    text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-}
-.round.hollow a:hover {
-    border: 2px solid #000;
-    border-radius: 35px;
-    color: red;
-    color: #000;
-    font-size: 23px;
-    padding: 10px 21px;
-    text-decoration: none;
 }
 .popup-box-on {
     display: block !important;
@@ -637,9 +623,9 @@ a:active {
     font-family: Taviraj;
 }
 .bg_none i {
-    border: 1px solid #ff6701;
+    border: 1px solid #ed1c24;
     border-radius: 25px;
-    color: #ff6701;
+    color: #ed1c24;
     font-size: 17px;
     height: 33px;
     line-height: 30px;
@@ -695,13 +681,8 @@ a:active {
     padding: 0 0 0 1px;
     width: 21px;
 }
-
-
-
-
-
 .popup-box .popup-messages {
-    background: #3f9684 none repeat scroll 0 0;
+    background: #7d8285 none repeat scroll 0 0;
     height: 275px;
     overflow: auto;
 }
@@ -719,7 +700,7 @@ a:active {
     text-align: center;
 }
 .popup-messages abbr.timestamp {
-    background: #3f9684 none repeat scroll 0 0;
+    background: #7d8285 none repeat scroll 0 0;
     color: #fff;
     padding: 0 11px;
 }
@@ -737,19 +718,19 @@ a:active {
     height: 30px;
     width: 30px;
 }
-.popup-head-right .btn-group .dropdown-menu {
+.popup-head-right .btn-group .dropdown-menu2 {
     border: medium none;
     min-width: 122px;
     padding: 0;
 }
-.popup-head-right .btn-group .dropdown-menu li a {
+.popup-head-right .btn-group .dropdown-menu2 li a {
     font-size: 12px;
     padding: 3px 10px;
     color: #303030;
 }
 
 .popup-messages abbr.timestamp {
-    background: #3f9684  none repeat scroll 0 0;
+    background: #7d8285  none repeat scroll 0 0;
     color: #fff;
     padding: 0 11px;
 }
@@ -792,7 +773,7 @@ a:active {
 }
 .popup-messages  .direct-chat-img {
     border: 1px solid #fff;
-    background: #3f9684  none repeat scroll 0 0;
+    background: #7d8285  none repeat scroll 0 0;
     border-radius: 50%;
     float: left;
     height: 40px;
@@ -814,7 +795,7 @@ a:active {
     height: 20px;
     margin: 0 8px;
     width: 20px;
-    background:#3f9684;
+    background:#7d8285;
 }
 
 .popup-messages .direct-chat-msg {
