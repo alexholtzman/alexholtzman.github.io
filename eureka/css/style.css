@@ -550,6 +550,7 @@ a:active {
 }
 .newsletter{
     width:100%;
+    margin-top: 50px;
 }
 .fa-2x {
     color: #ed1c24;
@@ -870,4 +871,7 @@ a:active {
     margin: 5px 0 0 50px;
     padding: 5px 10px;
     position: relative;
+}
+.mt-40 {
+    margin: 50px 0px;
 }
