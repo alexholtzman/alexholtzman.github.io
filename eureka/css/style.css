@@ -872,6 +872,17 @@ a:active {
     padding: 5px 10px;
     position: relative;
 }
-.mt-40 {
-    margin: 50px 0px;
+button.selected{
+    background-color: #ed1c24;
+    border-color: #ed1c24;
+    font-family: "Work Sans", sans-serif;
+    color: #212529;
+}
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 60px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 100px;
+    margin: 10px 10px;
 }

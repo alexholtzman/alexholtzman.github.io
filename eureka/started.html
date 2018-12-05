@@ -25,11 +25,16 @@
                     $('.navbar img').attr('src','images/eureka-final.svg');
                 }
             });
+                $('button').on('click', function(){
+                $('button').removeClass('selected');
+                $(this).addClass('selected');
+            });
         });
     </script>
     <title>Eureka Vacation Planner - Get Started</title>
 </head>
 <body>
+<!-- Navigation -->
 <nav class="navbar navbar-expand-md fixed-top top-nav">
     <div class="container">
         <a class="navbar-brand" href="index.html"><img src="images/eureka-final.svg" class="top-nav" alt="Eureka Logo" height="80px"></a>
@@ -81,6 +86,7 @@
         </div>
     </div>
 </nav>
+<!-- Password -->
 <div id="modalPassword" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -105,6 +111,34 @@
             <img src="images/eureka-final.svg" width="400px" alt="Eureka Logo"><h1 class="eureka">Vacation Planner</h1>
         </div>
         <div class="clearfix"></div>
+    </div>
+<!-- Get Started -->
+    <div class="container text-center">
+        <h1>Get Started</h1>
+        <div>
+            <h2>Budget</h2>
+            <button class="btn-lg btn-primary"><i class="fas fa-dollar-sign"></i></button>
+            <button class="btn-lg btn-primary"><i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i></button>
+            <button class="btn-lg btn-primary"><i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i></button>
+        </div>
+        <div>
+            <h2>Number of Travelers</h2>
+            <button class="btn-lg btn-primary"><i class="fas fa-male"></i></button>
+            <button class="btn-lg btn-primary"><i class="fas fa-male"></i>&nbsp;<i class="fas fa-male"></i></button>
+            <button class="btn-lg btn-primary"><i class="fas fa-male"></i>&nbsp;<i class="fas fa-male">&nbsp;</i><i class="fas fa-male"></i></button>
+        </div>
+        <div>
+            <h2>Desired Experience</h2>
+            <button class="btn-lg btn-primary"><i class="fas fa-spa"></i>Relaxed</button>
+            <button class="btn-lg btn-primary"><i class="fas fa-hiking"></i>Active</button>
+            <button class="btn-lg btn-primary"><i class="fas fa-monument"></i>Cultural</button>
+        </div>
+        <div>
+            <h2>Climate</h2>
+            <button class="btn-lg btn-primary"><i class="fas fa-snowflake"></i>Cold</button>
+            <button class="btn-lg btn-primary"><i class="fas fa-cloud-sun"></i>Either</button>
+            <button class="btn-lg btn-primary"><i class="fas fa-sun"></i>Hot</button>
+        </div>
     </div>
 <!-- Testimonials -->
     <div class="testimonials-clean mb-50">
@@ -144,6 +178,7 @@
         </div>
     </div>
 </main>
+<!-- Footer -->
 <footer>
     <div class="newsletter" align="center">
         <form action="" method="post">
