@@ -886,3 +886,80 @@ button.selected{
     height: 100px;
     margin: 10px 10px;
 }
+select {
+    border-color: #ed1c24;
+    background-color: transparent;
+    color: #ed1c24;
+}
+#city {
+    width: 200px;
+}
+.account input {
+    width: 400px;
+    align: center;
+}
+.account {
+    align: center;
+}
+.container {
+    padding: 50px 0px;
+}
+@media (min-width: 768px) {
+    .top-nav .navbar-nav li .nav-link {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+
+
+}
+@media (max-width: 767px) {
+    .top-nav .navbar-nav li .nav-link {
+        font-size: 12px;
+        padding: 0px 0px;
+    }
+    .top-nav.light-header .navbar-nav li .nav-link {
+        padding: 0px 0px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .top-nav a img {
+        height: 40px;
+    }
+    .light-header img {
+    height: 40px;
+    }
+    header img {
+        width: 200px;
+    }
+    .eureka {
+        font-size: 40px;
+    }
+    .btn-xl {
+        padding: 5px 10px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        width:80%;
+        height: 40px;
+        margin: 20px 0;
+    }
+    .el {
+        width: 200px;
+    }
+    .btn-lg {
+        font-size: 18px;
+    }
+    .account input {
+    width: 300px;
+}
+    .fixed-top {
+    top: 45px;
+    }
+}
